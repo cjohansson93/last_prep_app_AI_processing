@@ -1,6 +1,6 @@
 # CSI-CUE-LSAT-Prep-App
 
 The LSAT has 3 multiple choice sections:
-Logical Reasoning 
-Analytical Reasoning
-Reading Comprehention
+(1) Logical Reasoning 
+(2) Analytical Reasoning
+(3) Reading Comprehention

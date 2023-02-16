@@ -7,6 +7,7 @@ This file creates a category dictionary from CSV LSAT dataset. This includes pre
 Resulting dictionary categories (keys) contain the words with counts (values) for each said category.
 """
 import csv
+import nltk
 
 
 def main():

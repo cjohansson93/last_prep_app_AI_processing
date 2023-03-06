@@ -14,6 +14,24 @@ import json
 Main
 """
 def main():
+    categoryDictionary = jsonToDict()
+    sortDictByValue(categoryDictionary)
+    topThreeWordsList = topThreeWords()
+    csvBuilder()
+
+
+def jsonToDict():
+    return ""
+
+def sortDictByValue(dictionary):
+    pass
+
+
+def topThreeWords(wordList):
+    return ""
+
+
+def csvBuilder():
     pass
 
 

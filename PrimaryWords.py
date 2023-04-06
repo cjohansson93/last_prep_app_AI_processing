@@ -95,7 +95,13 @@ def topThreeWords(questionsListTFIDF):
 
 
 def csvBuilder(topThreeWordsList):
-    pass
+    topThreeWordsList.insert(0,["word_one", "word_two", "word_three"])
+    with open('LRappData.csv', 'w', newline='') as csvfileWriter:
+        writer = csv.writer(csvfileWriter)
+        with open('Analytical Reasoning/reclor_data/test.csv') as csvFileReader:
+            reader = csv.reader(csvFileReader)
+            for i in range(len(topThreeWordsList)):
+                writer.writerow(reader.__next__()+topThreeWordsList[i])
 
 
 if __name__ == '__main__':

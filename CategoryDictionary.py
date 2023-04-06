@@ -42,7 +42,7 @@ def makeDictionary():
                 headers = False
             # Stores question category at key and questions as value
             else:
-                dictionary[row[7]] = dictionary.get(row[7], "") + row[1]
+                dictionary[row[7]] = dictionary.get(row[7], "") + " " + row[1]
     return dictionary
 
 
@@ -61,7 +61,6 @@ def processDictionary(dictionary):
         punctuationFree = "".join([word if word not in string.punctuation else " " for word in numRemoval])
         # Split words on whitespace into list for nltk stopword removal and lemmatization
         noWhiteSpace = punctuationFree.split()
-
         # Removes stop words that match nltk stopword list
         stop_words = stopwords.words("english")
         filteredText = " ".join([word for word in noWhiteSpace if word not in stop_words])

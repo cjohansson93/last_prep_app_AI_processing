@@ -64,7 +64,6 @@ def processDictionary(dictionary):
         # Removes stop words that match nltk stopword list
         stop_words = stopwords.words("english")
         filteredText = " ".join([word for word in noWhiteSpace if word not in stop_words])
-
         # Lemmatizes words to root according to nltk word map
         wordnet_lemmatizer = WordNetLemmatizer()
         lemmatizedText = [wordnet_lemmatizer.lemmatize(word) for word in (filteredText.split())]

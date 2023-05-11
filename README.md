@@ -19,7 +19,7 @@ The LSAT has 3 multiple choice sections:
 
   The output dataset is used within the Flutter app project LSAT Prep App. 
   https://github.com/bsalloum123/lsat_prep_app_2
-  With goals to provide a useful study preparation app for prospective test takers to familiarize themselves with types of questions. The app is developed through Flutter, which will allow for multi-platform development. Usefulness is hinged on the ability for these preppers to be exposed to questions with the primary words for category correlation highlighted. The app will enable users to take practice exams, flash card training and other training methods. User data will be stored in a database allowing for proper logins and storing of training progression.
+  With goals to provide a useful study preparation app for prospective test takers to familiarize themselves with types of questions. The app is developed through Flutter, which will allow for multi-platform development. Usefulness is hinged on the ability for these preppers to be exposed to questions with category correlation emphasized. The app will enable users to take practice exams, flash card practice and category recognition testing. User data will be stored in a database allowing for proper login, registration, profile and settings.
   
 ### Process and Usage
 

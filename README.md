@@ -24,3 +24,7 @@ The LSAT has 3 multiple choice sections:
 ### Process and Usage
 
 The process involves creating a category dictionary from CSV LSAT dataset. This includes preprocessing text in standard NLP process. This includes lower case, number and punctuation removal, clearing stop words and word lemmatization. Resulting dictionary categories (keys) contain the words with counts (values) for each said category. Dictionary is saved as a categoryDictionary.JSON file. The json from CategoryDictionary.py is turned back into a dictionary, then processes the questions from the CSV file in the same fashion as before from Test.csv for ranking three words in each for most relevance to category using TF-IDF ranking. The resulting words are then added as three columns in a new CSV file that is a combo of the previous file and these three, called LRappData.csv
+
+### License
+
+GNU GPL v3

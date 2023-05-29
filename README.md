@@ -1,4 +1,4 @@
-# CSI-CUE-LSAT-Prep-App
+# last_prep_app_AI_processing
 
 ### Contibutors
 Batool Salloum, Christian Johansson, Inaya Alkhatib, Kevine Shima
